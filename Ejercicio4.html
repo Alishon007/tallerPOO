@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>SISTEMA DE EMPLEADOS</h1>
+        <label for="nombre">Nombre: 
+            <input type="text" id="nombre">
+        </label>
+        <label for="apellido">Apellido: 
+            <input type="text" id="apellido">
+        </label>
+        <label for="empleado">Empleado: </label>
+        <select name="empleado" id="empleado">
+            <option value="EmpleadoTiempoCompleto">Tiempo Completo</option>
+            <option value="EmpleadoMedioTiempo">Medio Tiempo</option>
+        </select>
+        <br><br>
+        <label for="horas">Horas trabajadas: 
+            <input type="number" id="horas">
+        </label>
+        <button id="guardar">Guardar</button>
+    </div>
+    <div>
+        <h2>Registros</h2>
+        <ul id="listadoEmpleados"></ul>
+        <button id="mostrar">Mostrar</button>
+    </div>
+</body>
+<script src="Ejercicio4.js"></script>
+</html>
